@@ -1,0 +1,12 @@
+{
+  "genesis_time": "2025-01-01T00:00:00Z",
+  "chain_id": "velora-testnet-1",
+  "app_state": {
+    "bank": {
+      "balances": []
+    },
+    "gov": {},
+    "ibc": {},
+    "transfer": {}
+  }
+}

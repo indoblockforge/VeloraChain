@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  veloraA:
+    image: alpine
+    command: ["sh","-c","echo 'veloraA (placeholder)'; sleep 3600"]
+  veloraB:
+    image: alpine
+    command: ["sh","-c","echo 'veloraB (placeholder)'; sleep 3600"]
+  hermes:
+    image: informalsystems/ibc-relayer:latest
+    command: ["sleep","3600"]
+  router:
+    build: ../router
+    command: ["./velora-router"]

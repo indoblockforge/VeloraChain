@@ -1,0 +1,24 @@
+{
+  "title": "VeloraChain Governance",
+  "panels": [
+    {
+      "type": "table",
+      "title": "Active Proposals",
+      "targets": [
+        {
+          "expr": "gov_proposals_total"
+        }
+      ]
+    },
+    {
+      "type": "graph",
+      "title": "Votes (Yes/No/Abstain/Veto)",
+      "targets": [
+        { "expr": "gov_votes_yes_total" },
+        { "expr": "gov_votes_no_total" },
+        { "expr": "gov_votes_abstain_total" },
+        { "expr": "gov_votes_veto_total" }
+      ]
+    }
+  ]
+}

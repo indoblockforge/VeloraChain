@@ -1,0 +1,12 @@
+{
+  "title": "Increase block gas limit",
+  "description": "Performance optimization",
+  "changes": [
+    {
+      "subspace": "consensus",
+      "key": "MaxGas",
+      "value": "20000000"
+    }
+  ],
+  "deposit": "1000000aphoton"
+}

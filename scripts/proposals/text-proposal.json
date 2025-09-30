@@ -1,0 +1,7 @@
+{
+  "type": "cosmos-sdk/TextProposal",
+  "value": {
+    "title": "Update Chain Parameters",
+    "description": "Testing governance via text proposal."
+  }
+}
